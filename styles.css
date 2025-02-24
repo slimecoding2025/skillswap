@@ -1,0 +1,71 @@
+/* التنسيق العام */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #333;
+}
+
+header p {
+    color: #666;
+}
+
+.actions .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.actions .btn:hover {
+    background-color: #218838;
+}
+
+.features {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.features h2 {
+    color: #333;
+}
+
+.features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.features li {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* تنسيق الـ footer */
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    color: #777;
+}
+
+footer strong {
+    color: #333;
+}
